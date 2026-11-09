@@ -32,3 +32,7 @@ li{margin-bottom:5px}
 .note{background:var(--accent-soft);border-radius:12px;padding:14px 18px;font-size:13.5px;color:var(--ink-soft);margin:18px 0}
 .foot{margin-top:34px;padding-top:18px;border-top:1px solid var(--rule);font-size:13px;color:var(--ink-soft)}
 .links a{display:inline-block;margin-right:18px;font-weight:600}
+.table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:10px 0 14px}
+.table-wrap table{border-collapse:collapse;min-width:720px;width:100%;font-size:13px;line-height:1.6}
+.table-wrap th,.table-wrap td{border:1px solid var(--rule);padding:8px 10px;text-align:left;vertical-align:top;color:var(--ink)}
+.table-wrap th{background:var(--accent-soft);font-weight:600;white-space:nowrap}
